@@ -5,6 +5,7 @@ import java.util.*;
 public class Animal{
     public String name;
     public String favoriteFood;
+    public static int population=0;
     public Animal(String name, String favoriteFood){
         this.name=name;
         this.favoriteFood=favoriteFood;
@@ -15,5 +16,12 @@ public class Animal{
         if(food==favoriteFood){
             System.out.println("How did you know that "+food+" was "+name+"'s favorite food? Give them more.");
         }
+    }
+    public static void populationCount(){
+        System.out.println("Total population: "+population);
+    }
+
+    public void increasePopulation(){
+        Animal.population+=1;
     }
 }
