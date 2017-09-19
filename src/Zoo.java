@@ -2,8 +2,8 @@ import java.util.*;
 /**
  * Created by h205p2 on 9/12/17.
  */
-public class Zoo {
-    public static void main(String[] args) {
+public class Zoo{
+    public static void main(String[] args){
         Zoo z = new Zoo();
         Zookeeper zoebot=new Zookeeper("Zoebot");
         ArrayList<Animal> animals=new ArrayList<Animal>();
