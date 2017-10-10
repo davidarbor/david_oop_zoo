@@ -19,11 +19,6 @@ public class Zoo{
         animals.add(melman);
         animals.add(rainbow);
 
-        shereKhan.increasePopulation();
-        baloo.increasePopulation();
-        lightyear.increasePopulation();
-        melman.increasePopulation();
-        rainbow.increasePopulation();
         Animal.populationCount();
 
         shereKhan.sleep();

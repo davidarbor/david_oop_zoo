@@ -3,7 +3,6 @@ import java.util.*;
  * Created by h205p2 on 9/15/17.
  */
 public class Bee extends Animal{
-    public String name;
     public Bee(String name){
         super(name, "pollen");
         this.name=name;

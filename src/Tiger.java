@@ -3,7 +3,6 @@ import java.util.*;
  * Created by h205p2 on 9/14/17.
  */
 public class Tiger extends Animal{
-    public String name;
     public Tiger(String name){
         super(name, "meat");
         this.name=name;

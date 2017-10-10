@@ -3,7 +3,6 @@ import java.util.*;
  * Created by h205p2 on 9/15/17.
  */
 public class Giraffe extends Animal{
-    public String name;
     public Giraffe(String name){
         super(name, "leaves");
         this.name=name;

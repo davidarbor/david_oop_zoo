@@ -9,6 +9,7 @@ public class Animal{
     public Animal(String name, String favoriteFood){
         this.name=name;
         this.favoriteFood=favoriteFood;
+        Animal.population++;
     }
     public void sleep(){}
     public void eat(String food){
@@ -19,9 +20,5 @@ public class Animal{
     }
     public static void populationCount(){
         System.out.println("Total population: "+population);
-    }
-
-    public void increasePopulation(){
-        Animal.population+=1;
     }
 }
